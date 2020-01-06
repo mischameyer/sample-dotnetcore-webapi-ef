@@ -1,0 +1,11 @@
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\bin\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.deps.json
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\bin\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.dll
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\bin\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.pdb
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.csprojAssemblyReference.cache
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.AssemblyInfoInputs.cache
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.AssemblyInfo.cs
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.dll
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.pdb
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\bin\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-infrastructure.dll
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\bin\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-infrastructure.pdb
+C:\DATA\GITHUB\sample-dotnetcore-webapi-ef\sample-dotnetcore-webapi-ef-services\obj\Debug\netcoreapp3.1\sample-dotnetcore-webapi-ef-services.csproj.CopyComplete

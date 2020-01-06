@@ -1,9 +1,0 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
-
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>sample_dotnetcore_webapi_ef</RootNamespace>
-  </PropertyGroup>
-
-
-</Project>

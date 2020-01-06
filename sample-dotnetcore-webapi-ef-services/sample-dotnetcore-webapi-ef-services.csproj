@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>sample_dotnetcore_webapi_ef_services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sample-dotnetcore-webapi-ef-infrastructure\sample-dotnetcore-webapi-ef-infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
