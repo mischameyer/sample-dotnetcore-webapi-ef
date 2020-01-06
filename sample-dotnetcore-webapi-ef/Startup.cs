@@ -56,8 +56,7 @@ namespace sample_dotnetcore_webapi_ef
             services.AddScoped<IBookRepository, BookRepository>();
 
             services.AddRouting(options => options.LowercaseUrls = true);
-
-            //services.AddAutoMapper(typeof(LocalMapper));
+            
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.AddControllers();
