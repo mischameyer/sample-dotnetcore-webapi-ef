@@ -22,7 +22,7 @@ namespace sample_dotnetcore_webapi_ef.Controllers
         public BooksController(IBookRepository repository, IMapper mapper)
         {
             _bookRepository = repository;
-            _mapper = mapper;
+            _mapper = mapper;            
         }
 
         [HttpGet(Name = nameof(GetAll))]
@@ -57,7 +57,9 @@ namespace sample_dotnetcore_webapi_ef.Controllers
                 return BadRequest();
             }
 
-            Book toAdd = _mapper.Map<Book>(bookCreateDto);
+            //Book toAdd = _mapper.Map<Book>(bookCreateDto);
+
+            Book toAdd = new Book { Author = bookCreateDto.Author, Description = bookCreateDto.Description, Genre = bookCreateDto.Genre, Read = bookCreateDto.Read, Title = bookCreateDto.Title };
 
             _bookRepository.Add(toAdd);
 
@@ -150,8 +152,14 @@ namespace sample_dotnetcore_webapi_ef.Controllers
                 return BadRequest(ModelState);
             }
 
-            _mapper.Map(updateDto, item);
+            //_mapper.Map(updateDto, item);
 
+            item.Author = updateDto.Author;
+            item.Description = updateDto.Description;
+            item.Genre = updateDto.Genre;
+            item.Read = updateDto.Read;
+            item.Title = updateDto.Title;
+            
             _bookRepository.Update(id, item);
 
             if (!_bookRepository.Save())
