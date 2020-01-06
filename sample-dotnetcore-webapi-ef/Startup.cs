@@ -35,10 +35,8 @@ namespace sample_dotnetcore_webapi_ef
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-            var connectionString = "Server=localhost;Database=books;Integrated Security=True;";
-
-            services.AddDbContext<BooksDbContext>(options => options.UseSqlServer(connectionString));
+        {                        
+            services.AddDbContext<BooksDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("MSSQL")));
 
             services.AddCors(options =>
             {
@@ -63,7 +61,7 @@ namespace sample_dotnetcore_webapi_ef
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = ".NET Core WebApi with Entity Framework Core", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = ".NET Core WebApi with Entity Framework Core (to MSSQL)", Version = "v1" });
             });
 
         }
